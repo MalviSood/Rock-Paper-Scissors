@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+   color: aliceblue;
+    flex-direction: column;
+    
+    height: 100vh;
+    background: url(images/bg.jpeg) 
+    no-repeat center center /cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: .5rem;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    border: none;
+    font-size: 3rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem ;
+    cursor: pointer;
+
+border-radius: 5px;
+transition: all .3s ease-in-out;
+}
+button:hover{
+    opacity: 0.7;
+}
+#rock{
+        background-color: rgb(52, 191, 201);
+}
+#paper{
+    background: aquamarine;
+}
+#scissors{
+    background: rgb(6, 225, 225);
+}
+#user-score{
+    color: rgb(225, 39, 170);
+}
+#computer-score{
+    color: lime;
+}
+#result{
+    margin-top: 10px;
+}
+#scores{
+    margin-top: 30px;
+}
